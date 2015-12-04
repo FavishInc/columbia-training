@@ -1,0 +1,19 @@
+body {
+  background: pink;
+}
+
+h1 {
+  color: red;
+  &:hover {
+    transform: scale(2);
+  }
+}
+
+div.header {
+  h1 {
+    color: blue;
+    &:before {
+      content: "before";
+    }
+  }
+}
